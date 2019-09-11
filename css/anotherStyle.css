@@ -1,0 +1,1290 @@
+::-moz-selection {
+    background: #489BFF;
+    color: #fff
+}
+
+::selection {
+    background: #489BFF;
+    color: #fff
+}
+body{
+    color: #B0B1B1;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.form-control,
+.owl-carousel .owl-next,
+.owl-carousel .owl-next i,
+.owl-carousel .owl-prev,
+.owl-carousel .owl-prev i,
+.scaleimg,
+a,
+button,
+h4,
+i,
+img,
+li,
+p,
+span,
+ul.nav > li:after {
+    transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out
+}
+.all-sections{
+    padding: 50px 0;
+}
+.width-80{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/************************** Start inside pages nav ***********************/
+.nav2{
+   background: rgba(26, 24, 25, 0.95) !important; 
+    height: 200px;
+}
+.breadcrumbs{
+    color: #fff;
+    padding: 20px 0;
+}
+.breadcrumbs h2 {
+    font-weight: bold;
+}
+.navigation1 {
+    z-index: 9999999;
+}
+ul.nav-list{
+    height: 100vh
+}
+#fixed-social{
+    z-index: 999;
+}
+.padding-body{
+    padding: 200px 0 0 0 !important;
+}
+/************************** End inside pages nav ***********************/
+
+/************************************************ Start Profile .HTML ************************************/
+.profile{
+
+    margin: 50px auto;
+}
+
+
+
+.bkg{
+   background-image: url(../img/profile-bg.png);
+    background-size: 450px 400px;
+    background-position: left -134px bottom 0;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%; 
+}
+.bkg:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,.8);
+}
+
+.bkg2{
+   background-image: url(../img/money.png);
+    background-size: 450px 400px;
+    background-position: left -134px bottom 0;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%; 
+}
+
+/*********************** Profile Form ************************/
+/************* Start Profile Image ***************/
+
+.profile-pic {
+    margin: 0 auto;
+    display: table;
+    position: relative;
+    z-index: 999;
+}
+.margin-sections{
+    
+}
+.profile-in .profile-pic {
+    margin: -100px auto 0 auto;
+}
+.profile-pic p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+p.email-r {
+    color: #AEAEAE;
+    font-weight: 100 !important;
+}
+.images-upload-block a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.upload-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #C0C0C0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.upload-img span , .upload-img b{
+    position: absolute;
+    margin: auto;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 22px;
+    color: #e4e4e4;
+    cursor: pointer;
+}
+
+.upload-img span i {
+    color: #e4e4e4
+}
+
+ .upload-img b {
+    font-size: 20px;
+    color: #e4e4e4;
+}
+
+.upload-img input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    display: none
+}
+
+.profile-pic .images-upload-block {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    z-index: 9;
+    margin: 0 auto 20px auto;
+}
+
+.profile-pic .images-upload-block img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    -o-object-fit: cover;
+       object-fit: cover
+}
+/******************************** Edit Profile Image *************************************************/
+.uploaded-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    border-radius: 50%;
+    display: block;
+    background-color: #C0C0C0;
+    text-align: center;
+}
+.uploaded-block img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    border-radius: 50%;
+}
+.images-upload-block .close {
+    top: -8px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    background-color: #626262;
+    z-index: 9999;
+    opacity: 1;
+    color: #fff;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px; 
+    padding: 0;
+    text-shadow: none;
+    float: none;
+}
+/************* End Profile Image ***************/
+
+
+.form2 {
+    margin: 25px auto 0 auto;
+    display: table;
+    position: relative;
+    z-index: 99;
+}
+
+.form2 .form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+.form2 label {
+    color: #AEAEAE;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.form2 .form-control {
+    border: 0;
+    border-bottom: 1px solid #cac5c5;
+    border-radius: 0;
+    background-color: transparent;
+    font-size: 16px;
+    height: 60px;
+}
+
+.form2 .form-control:focus ~ .focus-border:before {
+    display: none
+}
+
+.form2 .form-control ~ .focus-border:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #489BFF;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s
+}
+
+.form2 .form-control ~ .focus-border:after {
+    top: auto;
+    bottom: 0
+}
+
+.form2 .form-control ~ .focus-border i:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 2px;
+    height: 0;
+    background-color: #003467;
+    -webkit-transition: .6s;
+    -o-transition: .6s;
+    transition: .6s
+}
+
+.form2 .form-control ~ .focus-border i:after {
+    left: auto;
+    right: 0
+}
+
+.form2 .form-control:focus ~ .focus-border:after {
+    left: 0;
+    width: 100%;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s
+}
+
+.form2 .form-control:focus ~ .focus-border i:after,
+.form2 .form-control:focus ~ .focus-border i:before {
+    top: 0;
+    height: 100%;
+    -webkit-transition: .6s;
+    -o-transition: .6s;
+    transition: .6s
+}
+
+.form2 .form-control:focus {
+    border-color: transparent;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    outline: 0 !important
+}
+
+.edit{
+    height: 45px;
+    font-size: 21px;
+    float: left;
+    background-color: #489BFF;
+    color: #fff;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+}
+.edit:hover , .edit:focus{
+    color: #489BFF;
+    background-color: #fff;
+    border-color: #489BFF;
+}
+/******* Button Hover ******************/
+.btn-round{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 170px;
+    height: 50px;
+    max-width: 250px;
+    margin: 1rem auto;
+    text-transform: uppercase;
+    border: 1px solid currentColor;
+    color: #fff;
+    background-color: #489BFF;
+    border-radius: 30px;
+    line-height: 50px
+}
+.btn-round:before , .btn-round:after{
+    z-index: -1;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-bottom: 50px solid #252528;
+    
+}
+.btn-round:before{
+    right: -50px;
+    border-right: 50px solid transparent;
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+        transform: translateX(-100%);
+}
+.btn-round:after{
+    left: -50px;
+    border-left: 50px solid transparent;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+        transform: translateX(100%);
+}
+.btn-round:hover {
+    color: #fff;
+    background-color: transparent
+}
+.btn-round:hover:before{
+    -webkit-transform: translateX(-40%);
+    -ms-transform: translateX(-40%);
+        transform: translateX(-40%);
+}
+.btn-round:hover:after{
+    -webkit-transform: translateX(40%);
+    -ms-transform: translateX(40%);
+        transform: translateX(40%);
+}
+.btn-round span{
+    position: absolute;
+    z-index: 9;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+/************************************************ End Profile .HTML  ************************************/
+
+
+
+
+/************************************************ Start Orders .HTML  ************************************/
+.orders{
+    background-image: url('../img/orders-bg.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/****** Nav Pills ***********/
+.nav-pills {
+    padding: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.nav-pills li {
+    float: none;
+    text-align: center;
+}
+.nav-pills li a.active{
+    border-bottom: 3px solid #000000;
+}
+.nav-pills > li > a {
+    border-radius: 0;
+    color: #B0B1B1;
+    font-size: 18px;
+    padding: 20px;
+    font-weight: bold;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover, .nav-pills > li > a:focus, .nav-pills > li > a:hover {
+    color: #000000;
+    background-color: transparent;
+}
+/********* Nav Content *********/
+.tab-content {
+    padding: 60px 0 0 0;
+}
+/************ Order Details *************/
+.order-tab{
+    position: relative;
+    margin: 0 0 10px 0;
+}
+.order1{
+   -webkit-box-shadow: 6px 10px 19px 0px rgba(241,243,243,1);
+    box-shadow: 6px 10px 19px 0px rgba(241,243,243,1); 
+    border: 1px solid rgba(241, 243, 243, .7);
+    border-radius: 15px;
+    padding: 10px 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    color: #B0B1B1;
+    z-index: 9;
+    background-color: #fff;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.order1:hover , .order1:focus{
+    -webkit-box-shadow: 0px 10px 19px 0px rgba(72, 155, 255, .3);
+    box-shadow: 0px 10px 19px 0px rgba(72, 155, 255, .3); 
+    color: #B0B1B1;
+/*    border-color: #489BFF;*/
+}
+.icon-r{
+    background-color: #489BFF;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: -40px;
+    top: calc(50% - 40px);
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
+    text-align: left;
+    font-size: 24px;
+    padding: 0 11px;
+        -webkit-box-shadow: -1px 6px 22px 0px rgba(148, 148, 148, 0.7);
+    box-shadow: -1px 6px 22px 0px rgba(148, 148, 148, 0.7);
+}
+.order-img{
+    width: 140px;
+    float: right;
+    padding: 15px;
+    height: 120px;
+}
+.order-img img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+}
+.order-body{
+    width: calc(100% - 140px);
+    float: left;
+    text-align: right;
+    position: relative;
+    padding: 0 0 40px 0;
+}
+.order-body h3{
+    font-weight: bold;
+    color: #000000;
+    font-size: 17px;
+    margin: 0 0 10px 0;
+}
+.order-body p{
+    margin: 0;
+}
+.order-btm{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+.price-p{
+    color: #489BFF;
+    width: 50%;
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+.price{
+    font-weight: bold;
+    padding: 0 2px;
+}
+.order-prov{
+    font-weight: bold;
+    color: #000000;
+    font-size: 15px;
+    display: inline-block;
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin: 0;
+}
+
+/********************************/
+/************************************************ End Orders .HTML  ************************************/
+
+
+
+/************************************************ Start Order Current .HTML  ************************************/
+/*********** Start Status ******/
+.status{
+    background-color: #489BFF;
+    color: #fff;
+    text-align: center;
+    padding: 7px 0;
+    font-size: 20px;
+}
+
+
+/************ Start Services Number *******/
+.serv-num{
+    padding: 30px 0;
+}
+.serv-num h2{
+    color: #489BFF;
+    font-weight: bold;
+}
+.serv-num p{
+    color: #212121;
+    font-weight: bold;
+    font-size: 16px;
+}
+/************ End Services Number *******/
+.dlt{
+    cursor: pointer;
+}
+/*********** End Status ******/
+        
+
+    /***************************** delivery-ways ***************/
+.delivery-ways{
+    
+}
+.way1{
+    border-bottom: 1px solid rgba(173, 168, 168, .6);
+    padding: 0 0 17px;
+    margin: 0 0 35px 0;
+}
+.way1 h2{
+    color: #489BFF;
+    margin: 0 0 24px 0;
+}
+.delivery-img{
+    width: 58px;
+    float: right;
+}
+.delivery-img img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+}
+.way-to{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.delivery-in{
+    width: calc(100% - 100px);
+    padding: 0 30px 0 0;
+}
+.delivery-in h3{
+    color: #212121;
+    font-size: 25px;
+}
+.delivery-in p{
+    margin: 0;
+    font-size: 17px;
+}
+.sent{
+    position: relative;
+}
+.sent .done{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: #489bff;
+    font-size: 20px;
+}
+.total{
+    color: #212121;
+    font-weight: bold;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.total-in{
+    float: right;
+    width: 50%;
+}
+.total-sum{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.delivery-ways .btn-round{
+        background-color: #252528;
+}
+.delivery-ways .btn-round:before , .delivery-ways .btn-round:after{
+    border-bottom: 50px solid #489bff;
+}
+.delivery-ways .btn-round:hover {
+    background-color: transparent !important;
+}
+/************************************************ End Order Current .HTML  ************************************/
+
+
+
+
+/************************************************ Start Chat .HTML  ************************************/
+.chat1 .order-img{
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 0;
+    height: 120px;
+    width: 120px;
+}
+.chat1 .order-img img {
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.chat1 .order-body {
+    padding: 0 10px 0 0;
+}
+.chat1 .order-body p {
+    color: #212121;
+}
+
+/************************************************  UNREAD Msgs  ************************************/
+.unread{
+    text-align: center;
+    margin: 60px auto 0 auto;
+}
+.unread h3{
+    color: #C6C7C7;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+.unread h3 span{
+    margin: 0 0 8px 0;
+}
+.unread p{
+    color: #212121;
+}
+/************************************************ End Chat .HTML  ************************************/
+
+
+/************************************************ Start Notifications .HTML  ************************************/
+
+.notifi .icon-r{
+    height: 95px;
+    line-height: 95px;
+    padding: 0 0 0 19px;
+    right: -35px;
+    z-index: 99;
+    font-size: 38px;
+    border-radius: 50% 0 0 50%;
+    width: 78px;
+    border-right: 1px solid #fff;
+}
+.notifi .order1{
+    display: block;
+    padding: 25px 60px 15px 0;
+    min-height: 95px;
+}
+.notifi .order1 p{
+    color: #212121;
+    font-size: 18px;
+}
+.notifi .order1 p .blu{
+    color: #3D95FF;
+}
+.notifi .order1 p b{
+    font-weight: bold;
+}
+.notifi .order1 .time{
+    margin: 0
+}
+.unread-msg{
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+.unread-msg h2{
+    color: #CBCBCB;
+    font-weight: bold;
+    margin: 0 auto 25px 0;
+}
+.unread-msg h2 span{
+    margin: 0 0 0 14px;
+}
+.unread-msg p{
+    color: #212121;
+    font-size: 15px;
+    margin: 0;
+}
+/************************************************ End Notifications .HTML  ************************************/
+
+
+
+/************************************************ Start Order Finished .HTML  ************************************/
+/************************************************ Rating Modal  ************************************/
+
+#rateModal{
+    z-index: 999999999;
+    padding: 0 !important;
+    background-color: rgba(33, 33, 33, .6);
+}
+#rateModal .modal-dialog{
+    width: 100%;
+    max-width: 500px !important;
+    top: 22%;
+}
+#rateModal .modal-content{
+    background-color: #000000;
+    border: 1px solid #585858;
+    border-radius: 30px;
+    padding: 15px 30px;
+    text-align: center;
+    color: #fff;
+}
+
+#rateModal .close{
+    float: none;
+    position: absolute;
+    left: 25px;
+    top: -60px;
+    text-shadow: none;
+    color: #fff;
+    opacity: 1;
+    font-size: 37px;
+    width: 50px;
+    height: 50px;
+}
+#rateModal .close:hover , #rateModal .close:focus{
+    color: #000000;
+}
+#rateModal .modal-body{
+    
+}
+#rateModal .modal-body h5{
+    font-size: 1.55rem;
+    margin: 0 auto 10px auto;
+    font-weight: bold;
+}
+#rateModal .modal-body p{
+    color: #afafaf;
+    font-size: 17px;
+}
+#rateModal .modal-footer{
+    border: none;
+}
+#rateModal .btn-round{
+    z-index: 9;
+}
+#rateModal .white , .white-r{
+    background-color: #fff !important;
+    color: #000000;
+}
+#rateModal .white:before , #rateModal .white:after , .white-r:before , .white-r:after{
+    border-bottom: 50px solid #000000 !important;
+}
+#rateModal .white:hover , #rateModal .white:focus , .white-r:hover , .white-r:focus{
+    color: #fff !important;
+}
+#rateModal .black{
+    background-color: #000000;
+    color: #fff;
+}
+#rateModal .black:before, #rateModal .black:after {
+    border-bottom: 50px solid #fff !important;
+}
+#rateModal .black:hover , #rateModal .black:focus{
+    color: #000000 !important;
+}
+/************************************************  rating js  ************************************/
+
+.rating{
+    
+}
+
+/*
+
+.rates {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+*/
+
+.rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  height: 150px;
+  position: relative;
+}
+
+.rating-0 {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.rating > input {
+  display: none;
+}
+
+.rating > label {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin-top: auto;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='126.729' height='126.73'%3e%3cpath fill='%23e3e3e3' d='M121.215 44.212l-34.899-3.3c-2.2-.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101 0l-12.4 30.3c-.8 2.1-2.8 3.5-5 3.7l-34.9 3.3c-5.2.5-7.3 7-3.4 10.5l26.3 23.1c1.7 1.5 2.4 3.7 1.9 5.9l-7.9 32.399c-1.2 5.101 4.3 9.3 8.9 6.601l29.1-17.101c1.9-1.1 4.2-1.1 6.1 0l29.101 17.101c4.6 2.699 10.1-1.4 8.899-6.601l-7.8-32.399c-.5-2.2.2-4.4 1.9-5.9l26.3-23.1c3.8-3.5 1.6-10-3.6-10.5z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 76%;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+.rating > input:checked ~ label,
+.rating > input:checked ~ label ~ label {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='126.729' height='126.73'%3e%3cpath fill='%23fcd93a' d='M121.215 44.212l-34.899-3.3c-2.2-.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101 0l-12.4 30.3c-.8 2.1-2.8 3.5-5 3.7l-34.9 3.3c-5.2.5-7.3 7-3.4 10.5l26.3 23.1c1.7 1.5 2.4 3.7 1.9 5.9l-7.9 32.399c-1.2 5.101 4.3 9.3 8.9 6.601l29.1-17.101c1.9-1.1 4.2-1.1 6.1 0l29.101 17.101c4.6 2.699 10.1-1.4 8.899-6.601l-7.8-32.399c-.5-2.2.2-4.4 1.9-5.9l26.3-23.1c3.8-3.5 1.6-10-3.6-10.5z'/%3e%3c/svg%3e");
+}
+
+.rating > input:not(:checked) ~ label:hover,
+.rating > input:not(:checked) ~ label:hover ~ label {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='126.729' height='126.73'%3e%3cpath fill='%23d8b11e' d='M121.215 44.212l-34.899-3.3c-2.2-.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101 0l-12.4 30.3c-.8 2.1-2.8 3.5-5 3.7l-34.9 3.3c-5.2.5-7.3 7-3.4 10.5l26.3 23.1c1.7 1.5 2.4 3.7 1.9 5.9l-7.9 32.399c-1.2 5.101 4.3 9.3 8.9 6.601l29.1-17.101c1.9-1.1 4.2-1.1 6.1 0l29.101 17.101c4.6 2.699 10.1-1.4 8.899-6.601l-7.8-32.399c-.5-2.2.2-4.4 1.9-5.9l26.3-23.1c3.8-3.5 1.6-10-3.6-10.5z'/%3e%3c/svg%3e");
+}
+
+.emoji-wrapper {
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.emoji {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+.emoji > svg {
+  margin: 15px 0;
+  width: 70px;
+  height: 70px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+#rating-1:checked ~ .emoji-wrapper > .emoji {
+  -webkit-transform: translateY(-100px);
+          -ms-transform: translateY(-100px);
+      transform: translateY(-100px);
+}
+
+#rating-2:checked ~ .emoji-wrapper > .emoji {
+  -webkit-transform: translateY(-200px);
+          -ms-transform: translateY(-200px);
+      transform: translateY(-200px);
+}
+
+#rating-3:checked ~ .emoji-wrapper > .emoji {
+  -webkit-transform: translateY(-300px);
+          -ms-transform: translateY(-300px);
+      transform: translateY(-300px);
+}
+
+#rating-4:checked ~ .emoji-wrapper > .emoji {
+  -webkit-transform: translateY(-400px);
+          -ms-transform: translateY(-400px);
+      transform: translateY(-400px);
+}
+
+#rating-5:checked ~ .emoji-wrapper > .emoji {
+  -webkit-transform: translateY(-500px);
+          -ms-transform: translateY(-500px);
+      transform: translateY(-500px);
+}
+
+.feedback {
+    max-width: 360px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+/************************************************ End Order Finished .HTML  ************************************/
+
+
+/************************************************ Start Order New .HTML  ************************************/
+.permission {
+    margin: 25px auto 0 auto;
+    text-align: center;
+}
+.permission .btn-round{
+    display: inline-block;
+    margin: 0 5px;
+}
+/************************************************ End Order New .HTML  ************************************/
+
+
+
+
+
+/************************************************ Start Wallet .HTML  ************************************/
+.wallet{
+    
+}
+.bank{
+    padding:17px 15px 17px 0;
+}
+.bank p{
+    font-size: 17px;
+    margin:0;
+    color: #909090;
+}
+.calc{
+    text-align: left;
+    padding:17px 0 17px 15px;
+}
+.calc h4{
+    font-weight: bold;
+    color: #212121;
+    font-size: 21px;
+    margin:0;
+    
+}
+.blu-bg{
+    background-color: #489BFF;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.blu-bg .bank p{
+    color:#fff;
+}
+.blu-bg .calc h4{
+    color:#fff;
+}
+/************************************************ End Wallet .HTML  ************************************/
+
+
+
+/************************************************ Start Edit Service .HTML  ************************************/
+.input-lg {
+    height: 80px !important;
+    resize: none;
+}
+/************************************************ End Edit Service .HTML  ************************************/
+
+
+
+
+
+
+/****************************************************************************************************************************************************************** Media *********************************************************************************/
+
+@media (max-width:1024px) {
+        
+    }
+
+
+@media (max-width:991px) {
+    /************************************************ Start Orders .HTML  ************************************/
+    .nav-pills {
+        width: 100%;
+    }
+    /************************************************ End Orders .HTML  ************************************/
+    
+    
+    /************************************************ Start Profile .HTML  ************************************/
+    .nav2 {
+        height: 80px;
+    }
+    .padding-body{
+        padding: 80px 0 0 0 !important;
+    }
+    .profile-pic{
+        position: static;
+        margin: 10px auto 0 auto !important
+    }
+    .profile .profile-pic{
+        margin: 0 auto;
+    }
+    .margin-sections {
+       
+    }
+    .breadcrumbs {
+        padding: 0;
+    }
+    /************************************************ End Profile .HTML  ************************************/
+
+}
+
+
+@media (max-width:767px) {
+    /************* Start Profile Image ***************/
+    .profile-pic .images-upload-block {
+        width: 110px;
+        height: 110px;
+    }
+    .width-80{
+        width: 100%;
+    }
+    .breadcrumbs h2 {
+        font-size: 18px;
+    }
+    .breadcrumbs p {
+        display: none;
+    }
+    .bkg , .bkg2{
+        background-size: 310px 300px;
+    }
+    
+    /************* End Profile Image ***************/
+
+    
+    /************************************************ Start Orders .HTML  ************************************/
+    .nav-pills > li > a {
+        padding: 0 0 5px 0;
+    }
+    .tab-content {
+        padding: 30px 0 0 0;
+    }
+    .order-img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        width: 80px;
+        padding: 4px;
+        height: 60px;
+    }
+    .order1{
+        display: block;
+    }
+    .order-body {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding: 0 0 60px 0;
+    }
+    
+    .icon-r {
+        display: none;
+/*
+        top: -40px;
+        left: 20px;
+        text-align: left;
+        height: 100px;
+        transform: rotate(90deg);
+        padding: 11px 9px;
+*/
+    }
+/*
+    .icon-r svg{
+        transform: rotate(-90deg);
+    }
+*/
+    .order-prov span {
+    display: block;
+    margin: 4px 0 0 0;
+}
+    /************************************************ End Orders .HTML  ************************************/
+    
+
+    /************************************************ Start Order Current .HTML  ************************************/
+    .serv-num h2 {
+        font-size: 1.5rem;
+    }
+    .way1 h2 {
+        font-size: 22px;
+    }
+    .delivery-img {
+        width: 53px;
+    }
+    .delivery-in {
+        width: calc(100% - 60px);
+        padding: 0 11px 0 0;
+    }
+    .delivery-in h3 {
+        font-size: 18px;
+    }
+    .delivery-in p {
+        font-size: 16px;
+    }
+    /************************************************ End Order Current .HTML  ************************************/
+    
+    
+    
+    /************************************************ Start Notifications .HTML  ************************************/
+    .notifi .icon-r{
+        display: block;
+        width: 60px;
+        font-size: 22px;
+        padding: 0 0 0 10px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .notifi .order1 {
+        padding: 21px 40px 15px 0;
+        min-height: 60px;
+    }
+    .notifi .order1 p {
+        font-size: 15px;
+    }
+    /************************************************ End Notifications .HTML  ************************************/
+    
+    
+    
+    /************************************************ Start Wallet .HTML  ************************************/
+    .permission{
+        margin: 0 auto;
+    }
+    .bank , .calc{
+        padding: 5px 0;
+    }
+    .bank p {
+        font-size: 14px;
+    }
+    .calc h4 {
+        font-size: 16px;
+    }
+    /************************************************ End Wallet .HTML  ************************************/
+    
+    
+    
+    
+
+
+
+}
+
+@media (max-width:600px) {
+        /************************************************ Start Order Finished .HTML  ************************************/
+    #rateModal .modal-dialog {
+        max-width: 300px !important;
+    }
+    
+    #rateModal .modal-content {
+        padding: 10px 5px
+    }
+    #rateModal .modal-footer{
+        padding: 0;
+    }
+    #rateModal .btn-round {
+        width: 130px;
+    }
+    /************************************************ End Order Finished .HTML  ************************************/
+    }
+
+@media (max-width:480px) {
+    /************************************************ Start Order New .HTML  ************************************/
+    .permission .btn-round{
+        width: 130px;
+    }
+    /************************************************ End Order New .HTML  ************************************/
+    
+    
+    /************************************************ Start Wallet .HTML  ************************************/
+    .wallet .permission .btn-round {
+        width: 170px;
+    }
+    /************************************************ End Wallet .HTML  ************************************/
+
+    
+    }
